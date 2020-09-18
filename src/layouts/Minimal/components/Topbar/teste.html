@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="n1"></p>
+</body>
+
+<script>
+    var numero = "10";
+
+if (Number.isInteger(numero)&&(numero%2 == 0) || (numero%5==0))
+{
+document.write('Numero válido');
+}
+else
+{
+document.write('Numero inválido');
+}
+document.getElementById("n1").innerHTML = numero
+
+</script>
+</html>
